@@ -1,4 +1,4 @@
-<html>
+<html class="h_all w_all">
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -7,16 +7,23 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Index</title>
 </head>
-<body class="h_all w_all">
-	<div class="downForm">
-		<form>
-			<h1 class="center-align">Agregar una lista</h1>
-			<input type="text" name="" placeholder="Agregar nueva lista" class="center-align h_all w_all">
-			<input type="submit" value="Agregar" name="" class="center-block">
-		</form>
+<body class="w_all">
+<div class="row center-align valign-wrapper " >
+    <form class="col s12" >
+    <h5 align="center">Agregar Lista</h5>	
+		<div class="row">
+			<div class="input-field col s12">
+				<input id="add_list" type="text" class="validate">
+				<label for="add_list">Nombre de la Lista</label>
+			</div>
+			<div class=" row btn col s12 bck_btn_color">
+				<input id="add" type="btn" class="validate">
+				<label for="add" class="color_text">Agregar</label>
+			</div>
+		</div>
+	</form>
 	</div>
 
-
-<script src="comands.js"></script>
 </body>
+<script src="comands.js"></script>
 </html>
