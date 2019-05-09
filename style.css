@@ -45,3 +45,9 @@
 .secondary-content {
     float: right;
     color: #f44336;
+}
+.scroll-box {
+	overflow-y: scroll;
+	height: 100px;
+	padding: 1rem
+}
